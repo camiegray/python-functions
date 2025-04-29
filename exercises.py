@@ -81,7 +81,7 @@ print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
 # Define the function and then call it below.
 
 def sum_to(n):
-    return sum(
+    return
 
 print('Exercise 5:', sum_to(6))
 
@@ -97,7 +97,7 @@ print('Exercise 5:', sum_to(6))
 
 
 
-print('Exercise 6:', largest(1, 2, 3))
+# print('Exercise 6:', largest(1, 2, 3))
 
 # Exercise 7: Calculate a Tip
 #
@@ -126,7 +126,10 @@ print('Exercise 7:', calculate_tip(50, 20))
 # Define the function and call it with different sets of numbers to test.
 
 def product(*args):
-    return
+    result = 1
+    for arg in args:
+        result *= arg 
+    return result
 
 print('Exercise 8:', product(2, 5, 5))
 
@@ -148,7 +151,7 @@ print('Exercise 8:', product(2, 5, 5))
 def basic_calculator(num1, num2, operator):
     if operator == "add":
         return num1+num2
-    elif operator  = "subtract":
+    elif operator  == "subtract":
         return num1-num2
     elif operator == "multiply":
             return num1*num2
